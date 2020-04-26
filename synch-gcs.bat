@@ -13,5 +13,7 @@ rem gsutil cp %ROOT_PATH%\%REPO%\cement\production-type\data\chips.zip %GCS_BUCK
 
 REM --------------- capacity ---------------
 rem gsutil cp %ROOT_PATH%\%REPO%\cement\capacity\models\vgg16-256-128.zip %GCS_BUCKET%/%REPO%/cement/capacity/models/vgg16-256-128.zip
-gsutil cp %ROOT_PATH%\%REPO%\cement\capacity\data\chips.zip %GCS_BUCKET%/%REPO%/cement/capacity/data/chips.zip
+rem gsutil cp %ROOT_PATH%\%REPO%\cement\capacity\data\chips.zip %GCS_BUCKET%/%REPO%/cement/capacity/data/chips.zip
 
+REM --------------- footprints ---------------
+gsutil cp %ROOT_PATH%\%REPO%\preprocess\data\footprints.zip %GCS_BUCKET%/%REPO%/preprocess/data/footprints.zip
